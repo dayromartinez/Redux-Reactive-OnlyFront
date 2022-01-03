@@ -1,6 +1,6 @@
 export const GET_PACIENTE = "GET_PACIENTE";
 export const GET_CITA = "GET_CITA";
-const HOST_API = "http://localhost:8080/citasReactivas/";
+const HOST_API = "https://reactive-spring-app.herokuapp.com/citasReactivas/";
 
 export function getPaciente(id) {
   return async function(dispatch) {
